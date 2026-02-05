@@ -48,7 +48,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Feedback Data"
@@ -104,7 +106,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Submission Confirmation"
@@ -156,7 +160,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Authentication Result"
@@ -212,7 +218,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "User Credentials"
@@ -228,8 +236,8 @@
             },
             "vertices": [
               {
-                "x": 260,
-                "y": 110
+                "x": 290,
+                "y": 70
               }
             ]
           },
@@ -264,7 +272,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Authentication Request"
@@ -280,12 +290,20 @@
             },
             "vertices": [
               {
-                "x": 590,
-                "y": 230
+                "x": 500,
+                "y": 190
               },
               {
-                "x": 670,
-                "y": 250
+                "x": 610,
+                "y": 210
+              },
+              {
+                "x": 650,
+                "y": 210
+              },
+              {
+                "x": 680,
+                "y": 200
               }
             ]
           },
@@ -320,7 +338,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Authentication Result"
@@ -336,16 +356,16 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 320
+                "x": 700,
+                "y": 270
               },
               {
                 "x": 590,
-                "y": 300
+                "y": 250
               },
               {
-                "x": 510,
-                "y": 300
+                "x": 500,
+                "y": 210
               }
             ]
           },
@@ -380,7 +400,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Insert Feedback Data"
@@ -396,8 +418,8 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 120
+                "x": 600,
+                "y": 50
               }
             ]
           },
@@ -432,7 +454,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fc6edfd6-0163-4dd9-a498-5caefacae18d"
+              ]
             },
             "labels": [
               "Insert Result"
@@ -448,8 +472,8 @@
             },
             "vertices": [
               {
-                "x": 630,
-                "y": 210
+                "x": 600,
+                "y": 130
               }
             ]
           },
@@ -820,8 +844,8 @@
           },
           {
             "position": {
-              "x": 410,
-              "y": 120
+              "x": 400,
+              "y": 100
             },
             "size": {
               "width": 60,
@@ -959,6 +983,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1042,7 +1067,6 @@
               ]
             },
             "id": "51463b26-e98b-49dc-92e5-3219487c9a33",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Authorization\nProvider",
@@ -1062,7 +1086,56 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 18,
+            "zIndex": 19,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "63a74382-0b4b-43dc-b1f7-cd8a65be3023",
+                "0b4b7c99-93cb-4d6b-9615-ebd0173d456f",
+                "54477d2e-603b-4a54-9bef-7b925b5d5f7d",
+                "b0d60005-abe8-4f91-8c37-bcc4cc431a6d",
+                "2e929adf-ab70-4587-920c-1d3f4d3ec618",
+                "b577a3f0-25ee-4448-a157-df6030edf1a6",
+                "8e32b9eb-6556-4003-80a1-f46349a8f1c4",
+                "4f37191c-d788-4533-aaeb-b4df9f7c3305"
+              ],
+              "containedElements": [
+                "1937c44d-7559-4fe6-b276-9f05babc3ced"
+              ]
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "fc6edfd6-0163-4dd9-a498-5caefacae18d",
+            "source": {
+              "x": 620,
+              "y": 0
+            },
+            "target": {
+              "x": 380,
+              "y": 320
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 140
+              },
+              {
+                "x": 470,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1078,8 +1151,8 @@
             ],
             "id": "16918e24-e4ab-41b7-8c73-17c187163569",
             "source": {
-              "x": 420,
-              "y": 90
+              "x": 220,
+              "y": 40
             },
             "target": {
               "x": 113,
@@ -1087,38 +1160,14 @@
             },
             "vertices": [
               {
+                "x": 220,
+                "y": 40
+              },
+              {
                 "x": 190,
                 "y": 190
               }
             ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 19,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "fc6edfd6-0163-4dd9-a498-5caefacae18d",
-            "source": {
-              "x": 650,
-              "y": 150
-            },
-            "target": {
-              "x": 370,
-              "y": 370
-            }
           }
         ]
       }
