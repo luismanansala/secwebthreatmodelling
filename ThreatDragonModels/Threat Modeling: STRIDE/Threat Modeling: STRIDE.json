@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 90,
-              "y": 110
+              "x": 40,
+              "y": 100
             },
             "size": {
               "width": 112.5,
@@ -148,8 +148,8 @@
                 "text": "Web\nApplication"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -246,12 +246,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "e7d7d31a-a91f-4f0e-8f23-45780b7f2d44",
+                  "title": "Web Application Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "The web application may be spoofed by an attacker, potentially allowing unauthorized access to the browser client by impersonating the legitimate application.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -376,8 +398,8 @@
           },
           {
             "position": {
-              "x": 760,
-              "y": 70
+              "x": 780,
+              "y": 40
             },
             "size": {
               "width": 120,
@@ -388,11 +410,13 @@
                 "text": "SQL Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -489,19 +513,39 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "c5752b8b-f33a-444c-a937-ac40c3debdaf",
+                  "title": "Malicious SQL Code Injection",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "SQL injection is an attack in which malicious SQL code is inserted into input fields and executed by the database, potentially modifying or corrupting stored data.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
             "position": {
-              "x": 760,
-              "y": 180
+              "x": 800,
+              "y": 230
             },
             "size": {
               "width": 120,
@@ -512,11 +556,13 @@
                 "text": "LDAP"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -613,13 +659,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "69b29634-cf1d-44a8-818b-34a8dc6761ac",
+                  "title": "LDAP Injection",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "LDAP injection may occur if user input is improperly validated and included in LDAP queries used for authentication or authorization.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -724,6 +790,10 @@
               "port": "c1dc04d3-c852-4cba-b56d-876bcb309106"
             },
             "vertices": [
+              {
+                "x": 270,
+                "y": 130
+              },
               {
                 "x": 280,
                 "y": 110
@@ -1194,7 +1264,7 @@
               "y": -50
             },
             "target": {
-              "x": 580,
+              "x": 720,
               "y": 370
             },
             "vertices": [
@@ -1222,23 +1292,23 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "181c61fc-f955-4031-ac90-590d99c56b96",
+            "id": "5ec4820f-09c2-4ea4-92a7-47d9af0542e3",
             "source": {
-              "x": 190,
-              "y": -100
+              "x": 440,
+              "y": -60
             },
             "target": {
-              "x": 180,
-              "y": 350
+              "x": 130,
+              "y": 360
             },
             "vertices": [
               {
-                "x": 380,
-                "y": 70
+                "x": 340,
+                "y": 0
               },
               {
-                "x": 380,
-                "y": 160
+                "x": 340,
+                "y": 170
               }
             ]
           }
@@ -1247,6 +1317,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 3
   }
 }
