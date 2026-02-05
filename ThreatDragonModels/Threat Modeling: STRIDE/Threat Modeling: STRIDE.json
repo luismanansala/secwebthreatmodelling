@@ -1267,48 +1267,6 @@
             ]
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "c8ad096b-82a8-43b8-a57f-efe1146754d2",
-            "source": {
-              "x": 100,
-              "y": -90
-            },
-            "target": {
-              "x": 100,
-              "y": 390
-            },
-            "vertices": [
-              {
-                "x": 310,
-                "y": -20
-              },
-              {
-                "x": 310,
-                "y": 240
-              },
-              {
-                "x": 190,
-                "y": 370
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1396,6 +1354,34 @@
                 "y": 120
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "625630d3-373c-4aa0-a628-6cda1588f9c5",
+            "source": {
+              "x": 130,
+              "y": 250
+            },
+            "target": {
+              "x": 230,
+              "y": 350
+            }
           }
         ]
       }
