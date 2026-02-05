@@ -48,7 +48,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "ffd36f44-de5a-4f8e-af89-229c0177daff"
+              ]
             },
             "labels": [
               "User Credentials"
@@ -79,37 +81,7 @@
                 "x": 180,
                 "y": 330
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -142,7 +114,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "ffd36f44-de5a-4f8e-af89-229c0177daff"
+              ]
             },
             "labels": [
               "Feedback Data"
@@ -162,12 +136,20 @@
                 "y": 130
               },
               {
-                "x": 110,
-                "y": 180
+                "x": 150,
+                "y": 150
               },
               {
-                "x": 150,
-                "y": 260
+                "x": 170,
+                "y": 220
+              },
+              {
+                "x": 170,
+                "y": 310
+              },
+              {
+                "x": 230,
+                "y": 340
               }
             ]
           },
@@ -202,7 +184,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "ffd36f44-de5a-4f8e-af89-229c0177daff"
+              ]
             },
             "labels": [
               "Authentication Result"
@@ -216,7 +200,12 @@
               "cell": "aff0df4e-0bae-406f-8f44-e9f01aacf76a",
               "port": "a0d7e55b-cdef-42a6-9f52-2b04cc83bbf9"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 270,
+                "y": 340
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -249,7 +238,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "ffd36f44-de5a-4f8e-af89-229c0177daff"
+              ]
             },
             "labels": [
               "Submission Confirmation"
@@ -266,7 +257,11 @@
             "vertices": [
               {
                 "x": 280,
-                "y": 160
+                "y": 200
+              },
+              {
+                "x": 260,
+                "y": 170
               }
             ]
           },
@@ -581,6 +576,44 @@
               {
                 "x": 420,
                 "y": 560
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "133f4b11-e3df-4337-a7f1-a0ef96e06468",
+            "source": {
+              "x": 380,
+              "y": 40
+            },
+            "target": {
+              "x": 590,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 180
+              },
+              {
+                "x": 550,
+                "y": 340
               }
             ]
           },
@@ -1201,29 +1234,40 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "794ce011-ead3-467b-b711-71046b08ef6a",
+                "864ed0c5-4a1b-413d-908c-403b62700832",
+                "6ade3994-55dd-4bc9-be03-3a517d76a6e0",
+                "eabf75d8-5e79-4e10-9b42-80567adfc123"
+              ],
+              "containedElements": [
+                "aff0df4e-0bae-406f-8f44-e9f01aacf76a"
+              ]
             },
             "labels": [
               "Trust Boundary"
             ],
             "id": "ffd36f44-de5a-4f8e-af89-229c0177daff",
             "source": {
-              "x": 300,
-              "y": 40
+              "x": 330,
+              "y": 60
             },
             "target": {
-              "x": 160,
-              "y": 480
+              "x": 190,
+              "y": 500
             },
             "vertices": [
               {
-                "x": 280,
-                "y": 40
+                "x": 310,
+                "y": 60
               },
               {
-                "x": 210,
-                "y": 140
+                "x": 240,
+                "y": 160
+              },
+              {
+                "x": 50,
+                "y": 290
               }
             ]
           }
