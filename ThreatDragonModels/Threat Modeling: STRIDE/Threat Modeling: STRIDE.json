@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 40,
-              "y": 100
+              "x": -50,
+              "y": 110
             },
             "size": {
               "width": 112.5,
@@ -264,12 +264,25 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "d4a63f14-2678-494a-9464-c4a7e1a79f4c",
+                  "title": "Missing Web Application Logging",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "The web application may claim that it did not receive or process data from another component due to insufficient logging.",
+                  "mitigation": "Implement logging to record request sources, timestamps, and processed data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 0,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
@@ -532,11 +545,24 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "7e9eff7f-5d83-458e-98a9-17102a3da26b",
+                  "title": "Unverified SQL Database Data Writes",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "The SQL database may deny that it wrote data received from another component if proper auditing or logging is not implemented.",
+                  "mitigation": "Use logging or auditing to record the source, time, and summary of received data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -678,12 +704,38 @@
                   "new": false,
                   "number": 3,
                   "score": ""
+                },
+                {
+                  "id": "7651b763-aecd-45d8-90c3-0776ec4b037f",
+                  "title": "Missing LDAP Write Logging",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "LDAP may deny that it processed or stored data received from another component if logging is not enabled.",
+                  "mitigation": "Enable logging or auditing for LDAP write operations.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "b42b0888-d4ff-44d0-bf07-430268496af2",
+                  "title": "Unauthorized Data Access in LDAP Directory",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Improper access controls in LDAP may allow unauthorized users to read sensitive directory information.",
+                  "mitigation": "Review and restrict LDAP authorization and access controls.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
-                "informationDisclosure": 0,
+                "repudiation": 1,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             }
@@ -741,66 +793,6 @@
               {
                 "x": 340,
                 "y": 80
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Feedback Data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Feedback Data"
-            ],
-            "id": "dbc69ea7-355b-4037-8b34-c95466c394f0",
-            "source": {
-              "cell": "0cc3c71f-79a7-43b6-b7e4-f755c1b8f7d2",
-              "port": "69da0a60-59ac-4552-bb02-132c638ea149"
-            },
-            "target": {
-              "cell": "83dfb037-5524-4dad-b64f-a58c1dba50a7",
-              "port": "c1dc04d3-c852-4cba-b56d-876bcb309106"
-            },
-            "vertices": [
-              {
-                "x": 270,
-                "y": 130
-              },
-              {
-                "x": 280,
-                "y": 110
-              },
-              {
-                "x": 340,
-                "y": 110
               }
             ]
           },
@@ -1292,23 +1284,116 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "5ec4820f-09c2-4ea4-92a7-47d9af0542e3",
+            "id": "c8ad096b-82a8-43b8-a57f-efe1146754d2",
             "source": {
-              "x": 440,
-              "y": -60
+              "x": 100,
+              "y": -90
             },
             "target": {
-              "x": 130,
-              "y": 360
+              "x": 100,
+              "y": 390
             },
             "vertices": [
               {
-                "x": 340,
-                "y": 0
+                "x": 310,
+                "y": -20
               },
               {
-                "x": 340,
-                "y": 170
+                "x": 310,
+                "y": 240
+              },
+              {
+                "x": 190,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Feedback Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "2bcaa7da-12d3-48f5-997f-841b6381cc05",
+                  "title": "Feedback Data Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Data flowing between the browser client and the web application may be modified by an attacker if input validation is insufficient.",
+                  "mitigation": "Validate all input using an approved allow-list validation approach.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "c6635f87-7d98-4e3a-94f1-925ba578b06e",
+                  "title": "Sensitive Feedback Data Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Feedback data transmitted between components may be intercepted by an attacker and potentially exposing sensitive information.",
+                  "mitigation": "Encrypt data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Feedback Data"
+            ],
+            "id": "dbc69ea7-355b-4037-8b34-c95466c394f0",
+            "source": {
+              "cell": "0cc3c71f-79a7-43b6-b7e4-f755c1b8f7d2",
+              "port": "69da0a60-59ac-4552-bb02-132c638ea149"
+            },
+            "target": {
+              "cell": "83dfb037-5524-4dad-b64f-a58c1dba50a7",
+              "port": "c1dc04d3-c852-4cba-b56d-876bcb309106"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 120
+              },
+              {
+                "x": 330,
+                "y": 120
               }
             ]
           }
@@ -1317,6 +1402,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 9
   }
 }
