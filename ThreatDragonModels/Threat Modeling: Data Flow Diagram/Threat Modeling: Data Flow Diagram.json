@@ -137,7 +137,7 @@
           {
             "position": {
               "x": 390,
-              "y": -190
+              "y": -160
             },
             "size": {
               "width": 90,
@@ -504,8 +504,8 @@
           },
           {
             "position": {
-              "x": 385,
-              "y": -380
+              "x": 410,
+              "y": -400
             },
             "size": {
               "width": 100,
@@ -781,10 +781,94 @@
             },
             "vertices": [
               {
-                "x": 280,
+                "x": 233,
+                "y": -290
+              },
+              {
+                "x": 260,
                 "y": -260
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -806,7 +890,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Submission Confirmation",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -820,25 +904,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Submission Confirmation"
             ],
-            "id": "f7c06896-35d2-4dc4-8db0-955d4977687b",
+            "id": "dc6080d5-327d-4310-bc7d-a6fadaa48c21",
             "source": {
-              "cell": "a129a6c6-017c-4400-a376-a3147aefc73e",
-              "port": "be86e9a7-ecef-4bc9-ab8e-1e2e3106227a"
-            },
-            "target": {
               "cell": "dba85a3d-587a-445e-89c7-76f00f07c970",
               "port": "fcf95963-3e1a-4d9a-ad54-44f9d01d605b"
             },
+            "target": {
+              "cell": "a129a6c6-017c-4400-a376-a3147aefc73e",
+              "port": "be86e9a7-ecef-4bc9-ab8e-1e2e3106227a"
+            },
             "vertices": [
               {
-                "x": 350,
+                "x": 310,
                 "y": -300
-              },
-              {
-                "x": 435,
-                "y": -220
               }
             ]
           }
