@@ -64,12 +64,12 @@
             },
             "vertices": [
               {
-                "x": 320,
-                "y": 180
+                "x": 350,
+                "y": 160
               },
               {
-                "x": 210,
-                "y": 180
+                "x": 200,
+                "y": 160
               }
             ]
           },
@@ -120,12 +120,12 @@
             },
             "vertices": [
               {
-                "x": 310,
-                "y": 150
+                "x": 320,
+                "y": 130
               },
               {
-                "x": 230,
-                "y": 150
+                "x": 240,
+                "y": 130
               }
             ]
           },
@@ -176,12 +176,8 @@
             },
             "vertices": [
               {
-                "x": 210,
-                "y": 30
-              },
-              {
-                "x": 330,
-                "y": 30
+                "x": 340,
+                "y": 70
               }
             ]
           },
@@ -232,20 +228,16 @@
             },
             "vertices": [
               {
-                "x": 540,
+                "x": 560,
+                "y": 140
+              },
+              {
+                "x": 670,
                 "y": 160
               },
               {
-                "x": 650,
+                "x": 740,
                 "y": 180
-              },
-              {
-                "x": 690,
-                "y": 180
-              },
-              {
-                "x": 720,
-                "y": 170
               }
             ]
           },
@@ -297,14 +289,14 @@
             "vertices": [
               {
                 "x": 740,
-                "y": 240
+                "y": 210
               },
               {
-                "x": 630,
-                "y": 220
+                "x": 650,
+                "y": 180
               },
               {
-                "x": 540,
+                "x": 550,
                 "y": 180
               }
             ]
@@ -356,8 +348,12 @@
             },
             "vertices": [
               {
-                "x": 640,
-                "y": 20
+                "x": 590,
+                "y": 60
+              },
+              {
+                "x": 630,
+                "y": 60
               }
             ]
           },
@@ -408,7 +404,11 @@
             },
             "vertices": [
               {
-                "x": 640,
+                "x": 650,
+                "y": 100
+              },
+              {
+                "x": 580,
                 "y": 100
               }
             ]
@@ -461,7 +461,7 @@
             "vertices": [
               {
                 "x": 270,
-                "y": 60
+                "y": 100
               }
             ]
           },
@@ -485,7 +485,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authorization Request",
+              "name": "Authorization \nRequest",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -499,7 +499,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Authorization Request"
+              "Authorization \nRequest"
             ],
             "id": "6774fe84-e7f2-4c71-8750-cbac5cc1298e",
             "source": {
@@ -513,11 +513,15 @@
             "vertices": [
               {
                 "x": 390,
-                "y": 210
+                "y": 180
+              },
+              {
+                "x": 370,
+                "y": 220
               },
               {
                 "x": 390,
-                "y": 240
+                "y": 260
               }
             ]
           },
@@ -541,7 +545,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authorization Result",
+              "name": "Authorization \nResult",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -555,7 +559,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Authorization Result"
+              "Authorization \nResult"
             ],
             "id": "f712f910-b284-4abc-8ac2-75ac5b37301b",
             "source": {
@@ -568,12 +572,16 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 250
+                "x": 500,
+                "y": 190
               },
               {
-                "x": 510,
-                "y": 290
+                "x": 500,
+                "y": 240
+              },
+              {
+                "x": 480,
+                "y": 270
               }
             ]
           },
@@ -606,6 +614,10 @@
             },
             "vertices": [
               {
+                "x": 630,
+                "y": 10
+              },
+              {
                 "x": 590,
                 "y": 120
               },
@@ -615,7 +627,7 @@
               },
               {
                 "x": 620,
-                "y": 340
+                "y": 370
               }
             ]
           },
@@ -639,21 +651,21 @@
             ],
             "id": "5257d76c-0e9c-49da-9880-5f926cb5fbe8",
             "source": {
-              "x": 470,
-              "y": -60
+              "x": 430,
+              "y": -80
             },
             "target": {
-              "x": 410,
-              "y": 480
+              "x": 370,
+              "y": 460
             },
             "vertices": [
               {
-                "x": 300,
-                "y": 150
+                "x": 260,
+                "y": 130
               },
               {
-                "x": 390,
-                "y": 450
+                "x": 350,
+                "y": 430
               }
             ]
           },
@@ -900,8 +912,8 @@
           },
           {
             "position": {
-              "x": 790,
-              "y": 170
+              "x": 760,
+              "y": 150
             },
             "size": {
               "width": 120,
