@@ -3,7 +3,7 @@
   "summary": {
     "title": "Threat Modeling: STRIDE",
     "owner": "Luis Manansala",
-    "description": "",
+    "description": "The system lets users submit feedback through a web application using a browser. The web application checks the user’s access by communicating with an authorization provider and an LDAP service. Once the user is verified, the feedback is saved in the SQL database and a success message is sent back to the user.",
     "id": 0
   },
   "detail": {
