@@ -2007,58 +2007,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Order Data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Order Data"
-            ],
-            "id": "11bc471c-6234-4754-abfa-f556e1cf9c5f",
-            "source": {
-              "cell": "3ac0122f-433f-4f22-8119-077ff5f07d68",
-              "port": "a72ebccc-a76e-42c2-8788-b7c93e7f61ea"
-            },
-            "target": {
-              "cell": "2460bf58-c567-455d-9fc0-662bb495e7aa",
-              "port": "ed40e5be-f425-4fab-afb6-8c4e0fdd8975"
-            },
-            "vertices": [
-              {
-                "x": 350,
-                "y": 250
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 13,
             "connector": "smooth",
             "data": {
@@ -2149,6 +2097,52 @@
             "target": {
               "x": 740,
               "y": 400
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Display Orders",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Display Orders"
+            ],
+            "id": "02dce2a1-845d-4e82-b18f-4cc016919c22",
+            "source": {
+              "x": 450,
+              "y": 230
+            },
+            "target": {
+              "cell": "2460bf58-c567-455d-9fc0-662bb495e7aa",
+              "port": "ed40e5be-f425-4fab-afb6-8c4e0fdd8975"
             }
           }
         ]
