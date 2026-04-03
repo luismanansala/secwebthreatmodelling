@@ -1605,7 +1605,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request Order List",
+              "name": "Request Incoming Order",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1619,7 +1619,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Request Order List"
+              "Request Incoming Order"
             ],
             "id": "e5ab123d-98d3-47da-a8e4-08922b6dc9dd",
             "source": {
@@ -1709,7 +1709,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Fetch \nPending \nOrders",
+              "name": "Query \nOrder \nData",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1723,7 +1723,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Fetch \nPending \nOrders"
+              "Query \nOrder \nData"
             ],
             "id": "74135015-e150-413b-9a9a-0ecf167009af",
             "source": {
@@ -1761,7 +1761,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Order Data",
+              "name": "Order \nData",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1775,7 +1775,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Order Data"
+              "Order \nData"
             ],
             "id": "3bc08a21-915c-4611-851a-f81550294646",
             "source": {
