@@ -573,7 +573,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "78eb4590-5305-45cf-9848-6e5ddc2b4d01"
+              ]
             },
             "labels": [
               "Payment Response"
@@ -625,7 +627,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "78eb4590-5305-45cf-9848-6e5ddc2b4d01"
+              ]
             },
             "labels": [
               "Payment Request"
@@ -811,8 +815,68 @@
               "x": 870,
               "y": 290
             },
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "External Service",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "a505b76a-0832-4278-8a90-7becb2832b1f",
+                "0cc4e6ba-f56c-426f-be65-45f4b7e83457"
+              ],
+              "containedElements": [
+                "b2915e68-1b76-46c9-ade2-954f7b6ef921"
+              ]
+            },
+            "labels": [
+              "External Service"
+            ],
+            "id": "78eb4590-5305-45cf-9848-6e5ddc2b4d01",
+            "source": {
+              "x": 870,
+              "y": -20
+            },
+            "target": {
+              "x": 970,
+              "y": 270
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 170
+              }
+            ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
