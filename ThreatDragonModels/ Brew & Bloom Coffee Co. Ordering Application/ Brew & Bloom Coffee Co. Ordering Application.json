@@ -562,7 +562,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Payment Request",
+              "name": "Payment Response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -576,23 +576,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Payment Request"
+              "Payment Response"
             ],
-            "id": "0cc4e6ba-f56c-426f-be65-45f4b7e83457",
+            "id": "a505b76a-0832-4278-8a90-7becb2832b1f",
             "source": {
-              "x": 660,
-              "y": 110
-            },
-            "target": {
               "cell": "b2915e68-1b76-46c9-ade2-954f7b6ef921",
               "port": "cca434d8-643c-42ba-a676-e0380e9efb44"
             },
-            "vertices": [
-              {
-                "x": 720,
-                "y": 80
-              }
-            ]
+            "target": {
+              "cell": "624e3c01-25a9-4792-86e3-54347edfbf02",
+              "port": "0431da35-c6af-4d22-9340-28caf0d97c5e"
+            }
           },
           {
             "shape": "flow",
@@ -614,7 +608,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Payment Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -628,16 +622,47 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Payment Request"
             ],
-            "id": "a505b76a-0832-4278-8a90-7becb2832b1f",
+            "id": "0cc4e6ba-f56c-426f-be65-45f4b7e83457",
             "source": {
+              "cell": "624e3c01-25a9-4792-86e3-54347edfbf02",
+              "port": "0431da35-c6af-4d22-9340-28caf0d97c5e"
+            },
+            "target": {
               "cell": "b2915e68-1b76-46c9-ade2-954f7b6ef921",
               "port": "cca434d8-643c-42ba-a676-e0380e9efb44"
             },
-            "target": {
-              "cell": "624e3c01-25a9-4792-86e3-54347edfbf02",
-              "port": "0431da35-c6af-4d22-9340-28caf0d97c5e"
+            "vertices": [
+              {
+                "x": 720,
+                "y": 80
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
