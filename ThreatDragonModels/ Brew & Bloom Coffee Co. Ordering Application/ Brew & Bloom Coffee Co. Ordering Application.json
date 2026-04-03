@@ -2711,7 +2711,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Server–Database \nTrust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -2719,21 +2719,21 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Server–Database \nTrust Boundary"
             ],
-            "id": "94026444-c1a2-4140-9baa-1100efaed1a8",
+            "id": "98093237-d372-4809-9262-dd0c4ffd294e",
             "source": {
-              "x": 250,
-              "y": -170
+              "x": 360,
+              "y": 286
             },
             "target": {
-              "x": 250,
-              "y": 380
+              "x": 740,
+              "y": 280
             },
             "vertices": [
               {
-                "x": 440,
-                "y": 150
+                "x": 550,
+                "y": 310
               }
             ]
           },
@@ -2755,21 +2755,15 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "6b92a272-57bc-4c93-8c92-173857b81715",
+            "id": "cded9525-b3f7-4a2a-9278-8d6c6e9882dc",
             "source": {
-              "x": 326,
-              "y": 277
+              "x": 321,
+              "y": 95
             },
             "target": {
-              "x": 790,
-              "y": 270
-            },
-            "vertices": [
-              {
-                "x": 530,
-                "y": 320
-              }
-            ]
+              "x": 330,
+              "y": 380
+            }
           }
         ]
       },
