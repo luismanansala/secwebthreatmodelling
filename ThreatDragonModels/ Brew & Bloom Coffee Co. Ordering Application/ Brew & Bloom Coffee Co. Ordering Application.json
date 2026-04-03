@@ -2155,6 +2155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2238,7 +2239,6 @@
               ]
             },
             "id": "e3a93d8a-d791-4c28-a499-abdf4b26013f",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Manager ",
@@ -2272,6 +2272,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2355,7 +2356,6 @@
               ]
             },
             "id": "681b613b-6261-4a46-a99e-02cd3873c443",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web\nApplication\nServer",
@@ -2395,6 +2395,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2478,7 +2479,6 @@
               ]
             },
             "id": "5642425b-fbc7-4fad-8dd1-16bdf35a352d",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -2723,13 +2723,53 @@
             ],
             "id": "94026444-c1a2-4140-9baa-1100efaed1a8",
             "source": {
-              "x": 470,
-              "y": -20
+              "x": 250,
+              "y": -170
             },
             "target": {
-              "x": 320,
-              "y": 370
-            }
+              "x": 250,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "6b92a272-57bc-4c93-8c92-173857b81715",
+            "source": {
+              "x": 326,
+              "y": 277
+            },
+            "target": {
+              "x": 790,
+              "y": 270
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 320
+              }
+            ]
           }
         ]
       },
