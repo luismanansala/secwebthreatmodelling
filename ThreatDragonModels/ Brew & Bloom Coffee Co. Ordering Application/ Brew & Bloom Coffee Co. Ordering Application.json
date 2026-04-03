@@ -1830,12 +1830,28 @@
             ],
             "id": "cb5e6d38-f131-4087-b7d2-91de6ec5af44",
             "source": {
-              "x": 1490,
-              "y": 40
+              "x": 1360,
+              "y": -30
             },
             "target": {
               "x": 1340,
               "y": 360
+            },
+            "vertices": [
+              {
+                "x": 1580,
+                "y": 150
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
@@ -1843,6 +1859,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 35
+    "threatTop": 47
   }
 }
