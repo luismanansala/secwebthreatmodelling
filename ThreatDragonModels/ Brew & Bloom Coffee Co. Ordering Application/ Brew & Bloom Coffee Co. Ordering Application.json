@@ -550,18 +550,24 @@
               "threats": [
                 {
                   "id": "d1e128eb-07bf-4638-9440-6f32d8a13f74",
-                  "title": "New STRIDE threat",
+                  "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Provide a description for this threat",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
-                  "new": true,
+                  "new": false,
                   "number": 29,
                   "score": ""
                 }
-              ]
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "tools": {
               "items": [
