@@ -2493,7 +2493,7 @@
                 },
                 {
                   "id": "65d5582f-6cfd-4d6c-adb7-4c22e5754d71",
-                  "title": "Privilege Escalation",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
                   "status": "Open",
                   "severity": "High",
                   "type": "Elevation of privilege",
@@ -2524,8 +2524,15 @@
                 "repudiation": 0,
                 "informationDisclosure": 2,
                 "denialOfService": 1,
-                "elevationOfPrivilege": 3
+                "elevationOfPrivilege": 4
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
