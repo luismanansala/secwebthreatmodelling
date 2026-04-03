@@ -1168,58 +1168,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request Order List",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Request Order List"
-            ],
-            "id": "cfcb96a6-105d-4dda-89db-6afac205bcf0",
-            "source": {
-              "cell": "b271e63a-616e-48be-a348-56171700bda2",
-              "port": "1486c30e-83fa-4598-b53e-f3d2e1c67f83"
-            },
-            "target": {
-              "cell": "5b85fc4f-fa62-465a-a0c3-5662a19f1e55",
-              "port": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
-            },
-            "vertices": [
-              {
-                "x": 1500,
-                "y": 90
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Display Orders",
               "description": "",
               "outOfScope": false,
@@ -1347,6 +1295,58 @@
               {
                 "x": 1740,
                 "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Order List",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Order List"
+            ],
+            "id": "cfcb96a6-105d-4dda-89db-6afac205bcf0",
+            "source": {
+              "cell": "b271e63a-616e-48be-a348-56171700bda2",
+              "port": "1486c30e-83fa-4598-b53e-f3d2e1c67f83"
+            },
+            "target": {
+              "cell": "5b85fc4f-fa62-465a-a0c3-5662a19f1e55",
+              "port": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
+            },
+            "vertices": [
+              {
+                "x": 1500,
+                "y": 90
               }
             ]
           },
@@ -1758,11 +1758,13 @@
                 "text": "MongoDB "
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1859,13 +1861,79 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "0ad2f07d-a89b-4230-aae8-a70ac1e4fe9e",
+                  "title": "Order Data Modification",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 63,
+                  "score": ""
+                },
+                {
+                  "id": "c001ed17-b22e-4db7-a27f-f0c10fe3a5b7",
+                  "title": "Action Denial by Staff",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 64,
+                  "score": ""
+                },
+                {
+                  "id": "95751080-315b-4ae5-b889-67275d390758",
+                  "title": "Exposure of Staff Credentials",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 65,
+                  "score": ""
+                },
+                {
+                  "id": "12beab67-1511-4b35-8b87-c419f1c6a315",
+                  "title": "Database Overload Attack",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 66,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 2,
+                "denialOfService": 1
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2034,6 +2102,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 62
+    "threatTop": 66
   }
 }
