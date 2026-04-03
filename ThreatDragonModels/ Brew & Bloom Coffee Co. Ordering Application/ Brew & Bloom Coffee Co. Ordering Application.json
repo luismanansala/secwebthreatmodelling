@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 70
+              "x": 800,
+              "y": 80
             },
             "size": {
               "width": 150,
@@ -540,31 +540,104 @@
               "cell": "624e3c01-25a9-4792-86e3-54347edfbf02",
               "port": "a3f154e3-9e8b-4659-9cf2-2d0ad3831037"
             },
-            "vertices": [],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payment Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Payment Request"
+            ],
+            "id": "0cc4e6ba-f56c-426f-be65-45f4b7e83457",
+            "source": {
+              "x": 660,
+              "y": 110
+            },
+            "target": {
+              "cell": "b2915e68-1b76-46c9-ade2-954f7b6ef921",
+              "port": "cca434d8-643c-42ba-a676-e0380e9efb44"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "a505b76a-0832-4278-8a90-7becb2832b1f",
+            "source": {
+              "cell": "b2915e68-1b76-46c9-ade2-954f7b6ef921",
+              "port": "cca434d8-643c-42ba-a676-e0380e9efb44"
+            },
+            "target": {
+              "cell": "624e3c01-25a9-4792-86e3-54347edfbf02",
+              "port": "0431da35-c6af-4d22-9340-28caf0d97c5e"
             }
           }
         ]
