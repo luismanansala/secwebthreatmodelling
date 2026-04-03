@@ -526,9 +526,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "ff5701fa-e785-4e9d-899c-a5dcd15907f2"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Order Submission"
@@ -584,7 +582,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "eb39f0f7-9770-4ab4-80aa-33b362e646b5"
+              ]
             },
             "labels": [
               "Payment Processing \nRequest"
@@ -636,7 +636,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "eb39f0f7-9770-4ab4-80aa-33b362e646b5"
+              ]
             },
             "labels": [
               "Payment Result"
@@ -735,9 +737,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "ff5701fa-e785-4e9d-899c-a5dcd15907f2"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Order Confirmation \n& Status"
@@ -771,41 +771,33 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "8759a565-f79e-47eb-9eee-50aec6ce7625",
-                "05ee2eb3-5e0b-4574-aa53-fcf07c13b663"
+                "29894b13-0361-4b61-a67c-9a4aa2ce68a2",
+                "51cfb531-0ee8-4a17-9009-73c326c6b68e"
               ],
               "containedElements": [
-                "b1809e8b-ebb6-47d2-be6a-5393e654703c"
+                "d65782ae-402e-4d22-8767-4fab2ff236d2"
               ]
             },
             "labels": [
               "Trust Boundary"
             ],
-            "id": "ff5701fa-e785-4e9d-899c-a5dcd15907f2",
+            "id": "eb39f0f7-9770-4ab4-80aa-33b362e646b5",
             "source": {
-              "x": 120,
-              "y": 60
+              "x": 820,
+              "y": 40
             },
             "target": {
-              "x": 60,
-              "y": 360
+              "x": 810,
+              "y": 350
             },
             "vertices": [
               {
-                "x": 360,
-                "y": 60
+                "x": 700,
+                "y": 10
               },
               {
-                "x": 380,
-                "y": 230
-              },
-              {
-                "x": 330,
-                "y": 360
-              },
-              {
-                "x": 140,
-                "y": 380
+                "x": 520,
+                "y": 170
               }
             ]
           }
