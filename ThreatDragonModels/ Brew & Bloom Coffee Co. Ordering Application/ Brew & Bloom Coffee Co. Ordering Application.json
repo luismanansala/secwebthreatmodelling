@@ -1484,19 +1484,6 @@
                   "score": ""
                 },
                 {
-                  "id": "8b6a1bcc-11ee-4e89-920e-514f97b47d89",
-                  "title": "Fraudulent Order Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 91,
-                  "score": ""
-                },
-                {
                   "id": "67bd31ff-89ee-406e-8a99-e3bca29c67f5",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
@@ -1520,19 +1507,6 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 93,
-                  "score": ""
-                },
-                {
-                  "id": "b3c16271-57c1-4224-8629-be335f3a303e",
-                  "title": "Application Code and Configuration Disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 94,
                   "score": ""
                 },
                 {
@@ -1578,8 +1552,8 @@
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 2,
-                "repudiation": 2,
-                "informationDisclosure": 2,
+                "repudiation": 1,
+                "informationDisclosure": 1,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 2
               }
@@ -1742,6 +1716,52 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update \nOrder \nRecord",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update \nOrder \nRecord"
+            ],
+            "id": "7dd1b377-2d35-43e4-9528-55d9f5d05b3e",
+            "source": {
+              "x": 490,
+              "y": 270
+            },
+            "target": {
+              "cell": "9fd88519-b273-4ee8-a8e5-b5807ede6d0d",
+              "port": "64393189-29b6-4b31-8399-35665a5c960b"
+            }
+          },
+          {
             "position": {
               "x": 432,
               "y": 450
@@ -1879,19 +1899,6 @@
                   "score": ""
                 },
                 {
-                  "id": "f4a884ed-fdcb-4e4e-aef5-901302d34bf3",
-                  "title": "Order Data Tampering",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 99,
-                  "score": ""
-                },
-                {
                   "id": "e9f8ccc9-80fe-41f8-9ee1-bea56da689dc",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
@@ -1933,56 +1940,17 @@
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 2,
+                "repudiation": 1,
                 "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
             },
-            "width": 200,
-            "height": 100,
-            "zIndex": 13,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Save \nUpdated \nStatus",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Save \nUpdated \nStatus"
-            ],
-            "id": "1bf0761a-a763-4327-b289-8866820f0f3c",
-            "source": {
-              "x": 490,
-              "y": 280
-            },
-            "target": {
-              "cell": "9fd88519-b273-4ee8-a8e5-b5807ede6d0d",
-              "port": "64393189-29b6-4b31-8399-35665a5c960b"
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2049,7 +2017,8 @@
             "target": {
               "x": 740,
               "y": 400
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -2147,7 +2116,13 @@
             "target": {
               "cell": "3ac0122f-433f-4f22-8119-077ff5f07d68",
               "port": "a72ebccc-a76e-42c2-8788-b7c93e7f61ea"
-            }
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 310
+              }
+            ]
           }
         ]
       },
