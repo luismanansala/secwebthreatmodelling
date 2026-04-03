@@ -2745,7 +2745,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Client–Server \nTrust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -2753,17 +2753,23 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Client–Server \nTrust Boundary"
             ],
             "id": "cded9525-b3f7-4a2a-9278-8d6c6e9882dc",
             "source": {
-              "x": 321,
-              "y": 95
+              "x": 250,
+              "y": -40
             },
             "target": {
               "x": 330,
               "y": 380
-            }
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 110
+              }
+            ]
           }
         ]
       },
