@@ -438,11 +438,13 @@
                 "text": "MongoDB Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -539,13 +541,27 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "d1e128eb-07bf-4638-9440-6f32d8a13f74",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 29,
+                  "score": ""
+                }
+              ]
             },
             "tools": {
               "items": [
@@ -852,58 +868,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Save Order & \nPayment Info",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Save Order & \nPayment Info"
-            ],
-            "id": "150a0e1e-897b-4bf7-bae4-6d556a995f59",
-            "source": {
-              "x": 460,
-              "y": 260
-            },
-            "target": {
-              "cell": "24af0004-176f-4c9f-b2e7-9f82a5cadf6f",
-              "port": "65322445-ee0d-4c5b-8dc2-fc90f259de03"
-            },
-            "vertices": [
-              {
-                "x": 400,
-                "y": 330
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Order Confirmation \n& Status",
               "description": "",
               "outOfScope": false,
@@ -1087,13 +1051,70 @@
               "x": 810,
               "y": 340
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 470,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Save Order & \nPayment Info",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Save Order & \nPayment Info"
+            ],
+            "id": "150a0e1e-897b-4bf7-bae4-6d556a995f59",
+            "source": {
+              "cell": "36eb4e40-b872-4ccd-a6bd-970122fc14b5",
+              "port": "1d3dc118-d514-4cf6-a4bb-9ac5fcbe5a6c"
+            },
+            "target": {
+              "cell": "24af0004-176f-4c9f-b2e7-9f82a5cadf6f",
+              "port": "65322445-ee0d-4c5b-8dc2-fc90f259de03"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 330
+              }
+            ]
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 28
+    "threatTop": 32
   }
 }
