@@ -1361,6 +1361,214 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Sales \nReport",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Sales \nReport"
+            ],
+            "id": "bb066397-3df6-4780-a988-171b8d14e2c8",
+            "source": {
+              "cell": "074d5ceb-26d7-471d-aa3e-f059c8987ec8",
+              "port": "d4f508d0-e869-4691-8074-b1911e029391"
+            },
+            "target": {
+              "cell": "0b378108-1dbf-42f2-99e8-3e10000357e7",
+              "port": "3fad0cf3-2200-4114-a01e-03797d411b3d"
+            },
+            "vertices": [
+              {
+                "x": 2540,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Retrieve Sales \nData",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Retrieve Sales \nData"
+            ],
+            "id": "760aab57-dab5-46bd-8369-431136191805",
+            "source": {
+              "x": 2650,
+              "y": 290
+            },
+            "target": {
+              "cell": "904b9d10-30e9-478b-99fa-68493844de02",
+              "port": "3c7a7a0c-6a54-4167-ae50-48eaf0bcbba2"
+            },
+            "vertices": [
+              {
+                "x": 2610,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sales Data \nResponse",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sales Data \nResponse"
+            ],
+            "id": "af0a2902-16dd-418a-8955-4eda46c691e8",
+            "source": {
+              "cell": "904b9d10-30e9-478b-99fa-68493844de02",
+              "port": "3c7a7a0c-6a54-4167-ae50-48eaf0bcbba2"
+            },
+            "target": {
+              "cell": "0b378108-1dbf-42f2-99e8-3e10000357e7",
+              "port": "f1d01840-c849-4012-8a80-a79c993465b6"
+            },
+            "vertices": [
+              {
+                "x": 2720,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Display Sales \nReport",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Display Sales \nReport"
+            ],
+            "id": "254a9fb2-2f67-4df8-a051-78d6eeb1923d",
+            "source": {
+              "cell": "0b378108-1dbf-42f2-99e8-3e10000357e7",
+              "port": "3fad0cf3-2200-4114-a01e-03797d411b3d"
+            },
+            "target": {
+              "cell": "074d5ceb-26d7-471d-aa3e-f059c8987ec8",
+              "port": "d4f508d0-e869-4691-8074-b1911e029391"
+            },
+            "vertices": [
+              {
+                "x": 2540,
+                "y": 300
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1310,
               "y": 105
@@ -2102,8 +2310,8 @@
           },
           {
             "position": {
-              "x": 2254,
-              "y": 169
+              "x": 2363,
+              "y": 210
             },
             "size": {
               "width": 112.5,
@@ -2111,11 +2319,11 @@
             },
             "attrs": {
               "text": {
-                "text": "Barista"
+                "text": "Manager"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2187,83 +2395,52 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "c2a3c1d7-64dd-4341-bee6-29e89e6a0f9b"
+                  "id": "0708fcf0-72c7-41cd-bd8b-287f6b9ae5fc"
                 },
                 {
                   "group": "right",
-                  "id": "1486c30e-83fa-4598-b53e-f3d2e1c67f83"
+                  "id": "d4f508d0-e869-4691-8074-b1911e029391"
                 },
                 {
                   "group": "bottom",
-                  "id": "e105814e-1259-4886-8955-61ee089b45d6"
+                  "id": "8fc86964-6e71-4c20-a7e7-5cc7941d900d"
                 },
                 {
                   "group": "left",
-                  "id": "9a9aa540-884e-4f2a-bc5e-db2c15430e54"
+                  "id": "6a6b64b5-bb68-4eb1-8ff9-33df8931d548"
                 }
               ]
             },
-            "id": "13c2e5f7-1546-42f7-9055-4b9aaafded38",
+            "id": "074d5ceb-26d7-471d-aa3e-f059c8987ec8",
+            "zIndex": 18,
             "data": {
               "type": "tm.Actor",
-              "name": "Barista",
+              "name": "Manager",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "3423c24f-4fb6-465b-a5b6-d3404530be96",
-                  "title": "Staff Account Impersonation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 52,
-                  "score": ""
-                },
-                {
-                  "id": "a2718685-f10d-411d-8949-3cf992d0e89d",
-                  "title": "Fake Server Interaction",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 53,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 2,
-                "repudiation": 0
-              }
-            },
-            "zIndex": 18
+              "threats": []
+            }
           },
           {
             "position": {
-              "x": 2524,
-              "y": 154
+              "x": 2612,
+              "y": 190
             },
             "size": {
-              "width": 150,
-              "height": 90
+              "width": 90,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "Web \nApplication\nServer"
+                "text": "Web \nApplication \nServer"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2335,169 +2512,43 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "dd3adaad-ad96-466d-a7c1-7ba4da7351f1"
+                  "id": "d687d039-8066-474b-9b78-08dfebe441c9"
                 },
                 {
                   "group": "right",
-                  "id": "881a8bfb-5a7d-4766-8261-546b4da91d0e"
+                  "id": "80acc2bd-c5bb-4993-b7fd-421fa0e8aafd"
                 },
                 {
                   "group": "bottom",
-                  "id": "df10cc55-3b64-4a31-8298-8fa8f0bf7c41"
+                  "id": "f1d01840-c849-4012-8a80-a79c993465b6"
                 },
                 {
                   "group": "left",
-                  "id": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
+                  "id": "3fad0cf3-2200-4114-a01e-03797d411b3d"
                 }
               ]
             },
-            "id": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
+            "id": "0b378108-1dbf-42f2-99e8-3e10000357e7",
+            "zIndex": 19,
             "data": {
               "type": "tm.Process",
-              "name": "Web \nApplication\nServer",
+              "name": "Web \nApplication \nServer",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "2c511773-854b-43a6-b1f6-4abdba541170",
-                  "title": "Staff Account Impersonation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 54,
-                  "score": ""
-                },
-                {
-                  "id": "9b55c932-3c13-4650-8c86-2046504e0452",
-                  "title": "Fake Server Interaction",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 55,
-                  "score": ""
-                },
-                {
-                  "id": "92c38dd4-9362-4492-860c-b7076d72829c",
-                  "title": "Order Data Modification",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 56,
-                  "score": ""
-                },
-                {
-                  "id": "353c03c6-ed0c-452c-a082-f02d11eed70d",
-                  "title": "Unauthorized System Changes",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 57,
-                  "score": ""
-                },
-                {
-                  "id": "19c6e52b-2a11-47ca-92f8-200f51cd2073",
-                  "title": "Action Denial by Staff",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 58,
-                  "score": ""
-                },
-                {
-                  "id": "c4e295b4-0a77-44bd-953d-946eda092356",
-                  "title": "Exposure of Staff Credentials",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 59,
-                  "score": ""
-                },
-                {
-                  "id": "4265d350-3516-45ed-aa95-61e8a18cbff5",
-                  "title": "Service Disruption Attack",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Denial of service",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 60,
-                  "score": ""
-                },
-                {
-                  "id": "2da81b8c-b6a1-46c1-8f6c-a597bdb2d51a",
-                  "title": "Privilege Escalation to Admin",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Elevation of privilege",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 61,
-                  "score": ""
-                },
-                {
-                  "id": "167d16ff-f764-40ec-a7b2-fd22a0c35109",
-                  "title": "Unauthorized Access to Another Account",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Elevation of privilege",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 62,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 2,
-                "tampering": 2,
-                "repudiation": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 3
-              }
-            },
-            "zIndex": 19
+              "threats": []
+            }
           },
           {
             "position": {
-              "x": 2539,
-              "y": 394
+              "x": 2597,
+              "y": 400
             },
             "size": {
               "width": 120,
@@ -2505,16 +2556,14 @@
             },
             "attrs": {
               "text": {
-                "text": "MongoDB "
+                "text": "MongoDB Database"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2586,461 +2635,39 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "bad59ed7-999a-42f0-8080-b4eb6dcbdbb4"
+                  "id": "3c7a7a0c-6a54-4167-ae50-48eaf0bcbba2"
                 },
                 {
                   "group": "right",
-                  "id": "ab9cb26a-827d-4f1d-b10b-6d62963ea558"
+                  "id": "7af9fde4-fafc-4254-872b-01e376de801b"
                 },
                 {
                   "group": "bottom",
-                  "id": "aa12c173-51eb-492f-8dea-2e2b2d6ce6c1"
+                  "id": "9c867316-cd48-4c1d-8502-616ec2a909a0"
                 },
                 {
                   "group": "left",
-                  "id": "3e226977-58a4-4395-b071-fbda58c628f7"
+                  "id": "ce305aa3-1bf6-4b8b-9628-6d8836d83bc7"
                 }
               ]
             },
-            "id": "b2f4e4b2-c482-4858-bbcf-8f3fd2fc2333",
+            "id": "904b9d10-30e9-478b-99fa-68493844de02",
+            "zIndex": 20,
             "data": {
               "type": "tm.Store",
-              "name": "MongoDB ",
+              "name": "MongoDB Database",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": [
-                {
-                  "id": "0ad2f07d-a89b-4230-aae8-a70ac1e4fe9e",
-                  "title": "Order Data Modification",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 63,
-                  "score": ""
-                },
-                {
-                  "id": "c001ed17-b22e-4db7-a27f-f0c10fe3a5b7",
-                  "title": "Action Denial by Staff",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Repudiation",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 64,
-                  "score": ""
-                },
-                {
-                  "id": "95751080-315b-4ae5-b889-67275d390758",
-                  "title": "Exposure of Staff Credentials",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 65,
-                  "score": ""
-                },
-                {
-                  "id": "12beab67-1511-4b35-8b87-c419f1c6a315",
-                  "title": "Database Overload Attack",
-                  "status": "Open",
-                  "severity": "Low",
-                  "type": "Denial of service",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 66,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "repudiation": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 1
-              }
-            },
-            "zIndex": 20
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request Order List",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Request Order List"
-            ],
-            "id": "2f6d146a-354f-4c08-909f-4f290d47bb85",
-            "source": {
-              "cell": "13c2e5f7-1546-42f7-9055-4b9aaafded38",
-              "port": "1486c30e-83fa-4598-b53e-f3d2e1c67f83"
-            },
-            "target": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
-            },
-            "vertices": [
-              {
-                "x": 2444,
-                "y": 154
-              }
-            ],
-            "zIndex": 21
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Display Orders",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Display Orders"
-            ],
-            "id": "21f9db9b-b979-4821-9413-e8a72d758921",
-            "source": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
-            },
-            "target": {
-              "cell": "13c2e5f7-1546-42f7-9055-4b9aaafded38",
-              "port": "1486c30e-83fa-4598-b53e-f3d2e1c67f83"
-            },
-            "zIndex": 22
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Submit \nStatus Update",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Submit \nStatus Update"
-            ],
-            "id": "e8db9ec5-60fe-4cd4-bb45-f60e9abed54c",
-            "source": {
-              "x": 2374,
-              "y": 204
-            },
-            "target": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "7831fe5e-1a32-41e4-9f25-5f4f89c94793"
-            },
-            "vertices": [
-              {
-                "x": 2434,
-                "y": 254
-              }
-            ],
-            "zIndex": 23
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Order \nInformation",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Order \nInformation"
-            ],
-            "id": "1fe73860-22a6-4a52-b2e3-183f1c1efac3",
-            "source": {
-              "cell": "b2f4e4b2-c482-4858-bbcf-8f3fd2fc2333",
-              "port": "bad59ed7-999a-42f0-8080-b4eb6dcbdbb4"
-            },
-            "target": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "df10cc55-3b64-4a31-8298-8fa8f0bf7c41"
-            },
-            "vertices": [
-              {
-                "x": 2684,
-                "y": 314
-              }
-            ],
-            "zIndex": 24
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Fetch \nPending \nOrders",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Fetch \nPending \nOrders"
-            ],
-            "id": "78293357-70bb-47a9-9e2e-af825288acd6",
-            "source": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "df10cc55-3b64-4a31-8298-8fa8f0bf7c41"
-            },
-            "target": {
-              "cell": "b2f4e4b2-c482-4858-bbcf-8f3fd2fc2333",
-              "port": "bad59ed7-999a-42f0-8080-b4eb6dcbdbb4"
-            },
-            "vertices": [
-              {
-                "x": 2504,
-                "y": 314
-              }
-            ],
-            "zIndex": 25
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Save \nUpdated\nStatus",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Save \nUpdated\nStatus"
-            ],
-            "id": "8e1685d0-fecc-4510-b5e3-5e326777b29d",
-            "source": {
-              "cell": "e7002f99-6e7f-43e9-b6a5-9883d682ae8e",
-              "port": "df10cc55-3b64-4a31-8298-8fa8f0bf7c41"
-            },
-            "target": {
-              "cell": "b2f4e4b2-c482-4858-bbcf-8f3fd2fc2333",
-              "port": "bad59ed7-999a-42f0-8080-b4eb6dcbdbb4"
-            },
-            "vertices": [],
-            "zIndex": 26
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "6ac72eb6-4b72-4544-b20d-13d4a3f930f4",
-            "source": {
-              "x": 2304,
-              "y": 34
-            },
-            "target": {
-              "x": 2284,
-              "y": 424
-            },
-            "vertices": [
-              {
-                "x": 2524,
-                "y": 214
-              }
-            ],
-            "zIndex": 27
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Server–Database Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Server–Database Trust Boundary"
-            ],
-            "id": "1dd3d8b4-f04a-4aa2-a24e-2fc004e6b1bb",
-            "source": {
-              "x": 2334,
-              "y": 354
-            },
-            "target": {
-              "x": 2864,
-              "y": 354
-            },
-            "zIndex": 28
+              "threats": []
+            }
           }
         ]
       }
