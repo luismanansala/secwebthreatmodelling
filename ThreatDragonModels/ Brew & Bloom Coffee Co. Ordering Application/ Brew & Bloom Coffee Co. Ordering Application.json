@@ -560,13 +560,52 @@
                   "new": false,
                   "number": 29,
                   "score": ""
+                },
+                {
+                  "id": "0d413e3e-ea1c-429e-9ec0-d6d710e32bbc",
+                  "title": "Order Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "59e92475-ee81-40e5-921b-bf521ded45b0",
+                  "title": "Customer Data Exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "c14ea7e9-edbe-4442-adb3-858020cbfc0a",
+                  "title": "Database Denial of Service",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
-                "informationDisclosure": 0,
-                "denialOfService": 0
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
               }
             },
             "tools": {
@@ -1121,6 +1160,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 32
+    "threatTop": 35
   }
 }
