@@ -1094,7 +1094,17 @@
                 "x": 470,
                 "y": 360
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -1345,7 +1355,7 @@
             },
             "vertices": [
               {
-                "x": 1760,
+                "x": 1740,
                 "y": 250
               }
             ]
@@ -1371,6 +1381,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1454,7 +1465,6 @@
               ]
             },
             "id": "b271e63a-616e-48be-a348-56171700bda2",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Barista",
@@ -1488,6 +1498,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1571,7 +1582,6 @@
               ]
             },
             "id": "5b85fc4f-fa62-465a-a0c3-5662a19f1e55",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Web \nApplication\nServer",
@@ -1611,6 +1621,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1694,7 +1705,6 @@
               ]
             },
             "id": "f5fabcc6-8b19-4487-b0f4-6d9983355245",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB ",
@@ -1731,7 +1741,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Fetch \nPending Orders",
+              "name": "Fetch \nPending \nOrders",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1745,7 +1755,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Fetch \nPending Orders"
+              "Fetch \nPending \nOrders"
             ],
             "id": "29c4ceb2-aa20-4129-86e4-fbeb4103d53f",
             "source": {
@@ -1758,7 +1768,7 @@
             },
             "vertices": [
               {
-                "x": 1590,
+                "x": 1560,
                 "y": 250
               }
             ]
@@ -1783,7 +1793,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Save \nUpdated\nStatus",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1797,17 +1807,18 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Save \nUpdated\nStatus"
             ],
             "id": "4067e071-bbae-4038-ae63-9300529c2d48",
             "source": {
-              "x": 1650,
-              "y": 180
+              "cell": "5b85fc4f-fa62-465a-a0c3-5662a19f1e55",
+              "port": "df10cc55-3b64-4a31-8298-8fa8f0bf7c41"
             },
             "target": {
-              "x": 1710,
-              "y": 335
-            }
+              "cell": "f5fabcc6-8b19-4487-b0f4-6d9983355245",
+              "port": "bad59ed7-999a-42f0-8080-b4eb6dcbdbb4"
+            },
+            "vertices": []
           }
         ]
       }
